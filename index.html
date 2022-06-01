@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Piazzolla:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Portfolio</title>
+  </head>
+  <body>
+    <nav>
+      <h2>EE</h2>
+      <div class="nav-links">
+        <a href="https://github.com/00erieri" target="_blank">
+          <img src="./github.svg" alt="github link" />
+        </a>
+        <a href="https://www.instagram.com/erkanzx/" target="_blank">
+          <img src="./instagram.svg" alt="instagram link" />
+        </a>
+        <a
+          href="https://www.linkedin.com/in/erik-eriksson-966b84218/"
+          target="_blank"
+        >
+          <img src="./linkedin.svg" alt="linkedin link" />
+        </a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-img">
+        <img src="./hero.jpeg" alt="hero image" />
+      </div>
+      <div>
+        <h1>Hi, my name is Erik and im a Junior Web Developer</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugiat quod,
+          atque nostrum quis, alias ipsam ad aspernatur nobis placeat minus
+          commodi. Recusandae quis nihil officiis molestiae atque dolorum minima
+          alias!
+        </p>
+        <a href="#work">
+          <button class="white">Work</button>
+        </a>
+      </div>
+    </section>
+
+    <section class="work" id="work">
+      <h2 class="work-title">Work</h2>
+      <p class="work-subtitle">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore
+        expedita cupiditate quibusdam officia vel ea quae, et veniam numquam
+        voluptatibus odit ducimus dolor quam, eveniet libero nesciunt maiores
+        delectus! Sunt.
+      </p>
+      <div class="chips-wrapper">
+        <div class="chip" style="border-color: #61dbfb">react</div>
+        <div class="chip" style="border-color: #f5820d">firebase</div>
+        <div class="chip" style="border-color: #cc3534">npm</div>
+        <div class="chip" style="border-color: #3fa037">mongo db</div>
+        <div class="chip" style="border-color: #f0db4f">javascript</div>
+        <div class="chip" style="border-color: #007acc">typescript</div>
+        <div class="chip" style="border-color: #e34c26">html</div>
+        <div class="chip" style="border-color: #2965f1">css</div>
+      </div>
+      <div class="projects-container">
+        <div class="project">
+          <div class="img-container">
+            <img src="./project1.jpg" alt="project 1" />
+            <div class="img-overlay"></div>
+          </div>
+          <div class="project-text-container">
+            <h3 class="project-text-title">Interactive comments section</h3>
+            <p class="project-text-subtitle">
+              This is project will put your JavaScript skills to the test. We
+              provide a JSON file to pull the data, but it's also a perfect
+              project to build as a full-stack CRUD app!
+            </p>
+            <button>Repository</button>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="img-container">
+            <img src="./project2.jpg" alt="project 2" />
+            <div class="img-overlay"></div>
+          </div>
+          <div class="project-text-container">
+            <h3 class="project-text-title">Tip calculator app</h3>
+            <p class="project-text-subtitle">
+              This small app is perfect for anyone starting to get to grips whit
+              JavaScript. The calculator functionality will be a nice test!
+            </p>
+            <button>Repository</button>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="img-container">
+            <img src="./project3.jpg" alt="project 3" />
+            <div class="img-overlay"></div>
+          </div>
+          <div class="project-text-container">
+            <h3 class="project-text-title">IP Address Tracker</h3>
+            <p class="project-text-subtitle">
+              In this challenge, you'll be using two separeate APIs together to
+              create an IP Address Tracking app.
+            </p>
+            <button>Repository</button>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="img-container">
+            <img src="./project4.jpg" alt="project 4" />
+            <div class="img-overlay"></div>
+          </div>
+          <div class="project-text-container">
+            <h3 class="project-text-title">Stats preview card component</h3>
+            <p class="project-text-subtitle">
+              This is a great small challenge to help get you used to building
+              to a design. There's no JS in this project, so you'll be able to
+              focus on your HTML & CSS skills.
+            </p>
+            <button>Repository</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer id="contact">
+      <p class="footer-license">&copy;2022 - Erik Eriksson</p>
+    </footer>
+  </body>
+</html>
